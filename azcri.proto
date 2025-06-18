@@ -1,0 +1,9 @@
+syntax ="proto3";
+
+option go_package="socketDup/azcri";
+
+message WSADuplicateSocketInfo{
+    int32 socket_id=1;
+    bytes protocol_info=2;
+}
+
